@@ -1,0 +1,7 @@
+C:\Users\skyli\source\repos\csharpTest\testSwitch\bin\Debug\testSwitch.exe.config
+C:\Users\skyli\source\repos\csharpTest\testSwitch\bin\Debug\testSwitch.exe
+C:\Users\skyli\source\repos\csharpTest\testSwitch\bin\Debug\testSwitch.pdb
+C:\Users\skyli\source\repos\csharpTest\testSwitch\obj\Debug\testSwitch.csproj.AssemblyReference.cache
+C:\Users\skyli\source\repos\csharpTest\testSwitch\obj\Debug\testSwitch.csproj.CoreCompileInputs.cache
+C:\Users\skyli\source\repos\csharpTest\testSwitch\obj\Debug\testSwitch.exe
+C:\Users\skyli\source\repos\csharpTest\testSwitch\obj\Debug\testSwitch.pdb
