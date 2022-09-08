@@ -1,0 +1,10 @@
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\bin\Debug\WinFormTest.exe.config
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\bin\Debug\WinFormTest.exe
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\bin\Debug\WinFormTest.pdb
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\obj\Debug\WinFormTest.csproj.AssemblyReference.cache
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\obj\Debug\WinFormTest.Properties.Resources.resources
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\obj\Debug\WinFormTest.TimeRun.resources
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\obj\Debug\WinFormTest.csproj.GenerateResource.cache
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\obj\Debug\WinFormTest.csproj.CoreCompileInputs.cache
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\obj\Debug\WinFormTest.exe
+C:\Users\skyli\source\repos\csharpTest\WinFormTest\obj\Debug\WinFormTest.pdb
