@@ -20,9 +20,18 @@ namespace WinFormTest
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            //DateTime nowTime = DateTime.Now;
-            //labTimer.Text = nowTime.ToString();
-            labTimer.Text = $"{DateTime.Now.Hour:00}:{DateTime.Now.Minute}:{DateTime.Now.Second:00}\n";
+            DateTime nowTime = DateTime.Now;
+            labTimer.Text = nowTime.ToString();
+            CultureInfo ci = new CultureInfo("zh-tw");
+            showWeek(ci);
+            //TODO
+            //labTimer.Text = $"{DateTime.Now.Hour:00}:{DateTime.Now.Minute}:{DateTime.Now.Second:00}\n";
+        }
+
+        private void showWeek(CultureInfo ci)
+        {
+            string DWName = ci.DateTimeFormat.GetDayName(DateTime.Today.DayOfWeek);
+            labWeek.Text = DWName;
         }
 
         private void TimeRun_Load(object sender, EventArgs e)
@@ -31,15 +40,17 @@ namespace WinFormTest
             string nowTime = DateTime.Now.ToShortDateString();
             CultureInfo ci = new CultureInfo("zh-tw");
             //string DWShortName = ci.DateTimeFormat.GetShortestDayName(DateTime.Today.DayOfWeek);
-            string DWName = ci.DateTimeFormat.GetDayName(DateTime.Today.DayOfWeek);
-            //System.Globalization.DateTimeFormatInfo.CurrentInfo.DayNames[(byte)DateTime.Now.DayOfWeek]
+            //string DWName = ci.DateTimeFormat.GetDayName(DateTime.Today.DayOfWeek);
+            showWeek(ci);
 
             string full = "";
 
             full += $"{DateTime.Now.Hour:00}:{DateTime.Now.Minute}:{DateTime.Now.Second:00}\n";
 
             labTimer.Text = full.ToString();
-            labWeek.Text = $"{DateTime.Today.ToString("yyyy/MM/dd")}-{DWName}";
+            //labWeek.Text = $"{ DWName}";
+            MessageBox.Show($"{DateTime.Today.ToString("yyyy/MM/dd")}");
+            
         }
 
         private void labTimer_TextChanged(object sender, EventArgs e)

@@ -38,13 +38,12 @@ namespace WinFormTest
             // labTimer
             // 
             this.labTimer.AutoSize = true;
-            this.labTimer.Font = new System.Drawing.Font("新細明體", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labTimer.Location = new System.Drawing.Point(186, 146);
+            this.labTimer.Font = new System.Drawing.Font("微軟正黑體", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labTimer.Location = new System.Drawing.Point(55, 137);
             this.labTimer.Name = "labTimer";
-            this.labTimer.Size = new System.Drawing.Size(448, 120);
+            this.labTimer.Size = new System.Drawing.Size(217, 61);
             this.labTimer.TabIndex = 0;
             this.labTimer.Text = "00:00:00";
-            this.labTimer.TextChanged += new System.EventHandler(this.labTimer_TextChanged);
             // 
             // timer
             // 
@@ -54,9 +53,9 @@ namespace WinFormTest
             // labWeek
             // 
             this.labWeek.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labWeek.Location = new System.Drawing.Point(138, 91);
+            this.labWeek.Location = new System.Drawing.Point(72, 73);
             this.labWeek.Name = "labWeek";
-            this.labWeek.Size = new System.Drawing.Size(344, 55);
+            this.labWeek.Size = new System.Drawing.Size(145, 55);
             this.labWeek.TabIndex = 1;
             this.labWeek.Text = "星期";
             // 
@@ -64,7 +63,7 @@ namespace WinFormTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(672, 318);
             this.Controls.Add(this.labWeek);
             this.Controls.Add(this.labTimer);
             this.Name = "TimeRun";
