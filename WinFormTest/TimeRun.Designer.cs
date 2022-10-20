@@ -47,7 +47,7 @@ namespace WinFormTest
             // 
             // timer
             // 
-            this.timer.Interval = 1000;
+            this.timer.Interval = 300;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // labWeek

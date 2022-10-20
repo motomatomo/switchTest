@@ -49,6 +49,7 @@ namespace WinFormTest
 
             labTimer.Text = full.ToString();
             //labWeek.Text = $"{ DWName}";
+        
             MessageBox.Show($"{DateTime.Today.ToString("yyyy/MM/dd")}");
             
         }
