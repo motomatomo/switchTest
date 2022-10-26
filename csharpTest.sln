@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testSwitch", "testSwitch\te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormTest", "WinFormTest\WinFormTest.csproj", "{8465BA80-DB2A-4579-BF2E-69ABB14C2B44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "getDay", "getDay\getDay.csproj", "{9BCD3A09-BF0D-48C4-A466-2F277776E1A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8465BA80-DB2A-4579-BF2E-69ABB14C2B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8465BA80-DB2A-4579-BF2E-69ABB14C2B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8465BA80-DB2A-4579-BF2E-69ABB14C2B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCD3A09-BF0D-48C4-A466-2F277776E1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCD3A09-BF0D-48C4-A466-2F277776E1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCD3A09-BF0D-48C4-A466-2F277776E1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCD3A09-BF0D-48C4-A466-2F277776E1A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
